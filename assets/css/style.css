@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") center no-repeat;
+  background: #040404 url("../img/3.jpg") center no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -155,7 +155,7 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.522);
 }
 
 #header.header-top .social-links,
@@ -355,7 +355,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.522);
   padding: 30px;
 }
 
