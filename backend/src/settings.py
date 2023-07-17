@@ -87,22 +87,10 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 WSGI_APPLICATION = 'src.wsgi.application'
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'URL': 'postgres://adillydv:fsUiilFuW0N5kx45fd9QVxQS0Rqkkrws@arjuna.db.elephantsql.com/adillydv',
-        'NAME': 'adillydv',
-        'USER': 'adillydv',
-        'PASSWORD': 'fsUiilFuW0N5kx45fd9QVxQS0Rqkkrws',
-        'HOST': 'arjuna.db.elephantsql.com',
-        'PORT': 5432,
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
